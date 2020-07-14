@@ -1,0 +1,29 @@
+Assignment Question-2
+1)var
+Scope essentially means where these variables are available for use. var declarations are globally scoped or function/locally scoped.
+EX:
+var tester = "hey hi";
+    
+    function newFunction() {
+        var hello = "hello";
+    }
+    console.log(hello);
+
+
+
+2)let
+let is now preferred for variable declaration. It's no surprise as it comes as an improvement to var declarations. It also solves the problem with var.
+EX:let greeting = "say Hi";
+   let times = 4;
+
+   if (times > 3) {
+        let hello = "say Hello instead";
+        console.log(hello);// "say Hello instead"
+    }
+   console.log(hello)
+
+3)const
+Variables declared with the const maintain constant values. const declarations share some similarities with let declarations.
+EX:
+const greeting = "say Hi";
+    greeting = "say Hello instead";

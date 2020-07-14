@@ -1,0 +1,15 @@
+Assignment Question-3 
+1)Number
+The number type represents both integer and floating point numbers
+ex: var a=10;
+
+2)String
+A string in JavaScript must be surrounded by quotes.
+
+ex:let str = "Hello";
+
+3)Boolean
+The boolean type has only two values: true and false.
+ex:let name = true;
+
+4)
