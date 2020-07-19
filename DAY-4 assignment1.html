@@ -1,0 +1,43 @@
+<html>
+    <head>
+       <h2>Create a for loop that iterates up to 100 while outputting "fizz" at multiples of 3, "buzz" at multiples of 5 and
+        "fizzbuzz" at multiples of 3 and 5</h2>
+        
+       <script type="text/javascript">
+
+        for(var x=1;x<=100;x++){
+        var skip=0
+        
+            if(x%3==0)
+            {
+                document.write('Fizz');
+                skip=1;
+
+
+            }
+                
+            if(x%5==0)
+                {
+                    document.write('buzz');
+                    skip=1;
+
+                }
+           if(!skip)
+           {
+           document.write(x);
+           }
+           document.write('<br>'); 
+
+            
+        }
+        
+     </script>
+
+   
+
+      <body>   
+       </body>
+
+   </head>
+
+</html>    
